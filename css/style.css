@@ -140,7 +140,9 @@ font-family: 'letter_gothic_stdbold'; font-weight:bold;  }
 
 .service { background: url(images/box.png) no-repeat 0 0; width:280px; height:180px; padding:40px 0 0 20px;  }
 .service h3 { font-family: 'sunshine_poppy'; color:#502d14; }
-.service .box-content { padding:13px 0 0 0; width:170px; height:80px; font-size:11px; line-height:16px; text-align: justify;  overflow: hidden;  }
+.service .box-content { padding: 13px 0 13px 0;
+width: 252px;
+height: 85px; font-size:11px; line-height:16px; text-align: justify;  overflow: hidden;  }
 .service .buttons { padding-top:22px;    }
 
 /* content-bottom */
@@ -157,6 +159,266 @@ font-family: 'letter_gothic_stdbold'; font-weight:bold;  }
 .quotes h2 { color:#037b8d; font-family: 'sunshine_poppy'; padding:0 0 0 63px;  }
 .quote { background: url(images/quote-start.png) no-repeat 0 0; padding: 13px 0 0 64px;  }
 .quote blockquote { background: url(images/quote-end.png) no-repeat right bottom; padding:0 45px 10px 0; font-size:13px; line-height:19px;    }
+
+.description ul {
+	list-style: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+}
+/*contact*/
+
+#left_column1 {
+	width:255px;
+	float:left;
+}
+#left_column {
+	width:300px;
+	float:left;
+}
+.left_details {
+}
+.left_details h1 {
+	font-size:14px;
+}
+.left_details p {
+	margin:15px 0 !important;
+}
+.contact_title {
+	font-weight:bold;
+	float:left;
+	width:70px;
+}
+.contact_detail {
+	float:left;
+	width:100px;
+	clear:right;
+}
+.forms {
+	background-color:#FFFFFF !important; /*the important gets rid of the yellow google toolbar field style*/
+	border:1px solid #c8cdd2 !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:12px;
+	margin:3px 0px;
+	padding:4px;
+	width:240px;
+}
+
+.newsletter-form .forms {
+background-color: #FFFFFF !important;
+border: 1px solid #c8cdd2 !important;
+font-family: Arial, Helvetica, sans-serif !important;
+font-size: 12px;
+margin: 3px 0px;
+padding: 4px;
+width: 185px;
+}
+#contact {
+	border:0;
+	width:360px;
+}
+#contact label {
+	float:left;
+	width:80px;
+	margin-right:15px;
+	clear:left;
+	font-weight:bold;
+	text-align:left;
+	height:32px;
+}
+#contact .submit_button {
+	margin-left:95px;
+	margin-top:5px;
+	text-transform:uppercase;
+	border:none;
+	font-size:11px;
+	font-weight:bold;
+	width:70px;
+	height:25px;
+	color:#fff;
+}
+#map {
+	width:250px;
+	height:48px;
+	border-bottom:1px solid #e5e5e5;
+	border-top:1px solid #e5e5e5;
+	margin-bottom:10px;
+	padding-top:5px;
+}
+#map .text {
+	width:198px;
+	float:left;
+	font-size:12px;
+	color:#666666;
+}
+#map .icon {
+	width:32px;
+	height:32px;
+	float:right;
+	margin-top:5px;
+}
+#map a, #map a:link, #map a:visited {
+	text-decoration:none !important;
+}
+#map h3 {
+	color:#000000;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height:normal;
+	margin:3px 0 0 0;
+	padding:0px;
+}
+.googlemap {
+	width:280px;
+	height:246px;
+	float:right;
+	border:4px solid #e2e2e2;
+	margin-bottom:10px;
+	color:#666666;
+}
+
+/*Portfolio*/
+
+.service_box{
+	width:431px;
+	min-height:275px;
+	float:left;
+	margin-bottom:30px;
+	font-family: ''
+}
+
+.service_box h1{
+	font-family: 'sunshine_poppy';
+	font-size: 16px;
+	margin: 10px 0 10px 0;
+}
+.margin_left {  /*this pushes the boxes across the page*/
+	margin-left:18px;
+}
+.service_box .image {
+	width:410px;
+	height:189px;
+	border:1px solid #dedede;
+	background-color:#f3f3f3;
+	padding:9px;
+	margin-bottom:5px;
+}
+.service_box .portfolio_button {
+	height:20px;
+	clear:both;
+	margin-top:10px;
+	height:30px;
+}
+.service_box .portfolio_button .titles {
+	font-size:14px;
+	float:left;
+	width:330px;
+	padding-top:5px;
+	color:#037b8d;
+}
+.service_box .button {
+	float:right;
+	width:50px;
+}
+.service_box .description {
+	font-size:11px;
+	margin-bottom:5px;
+	color:#717171;
+}
+.service_box .date {
+	font-size:10px;
+	height:20px;
+	color:#999999;
+	border-top:dashed 1px #e2e2e2;
+	border-bottom:solid 2px #e2e2e2;
+}
+.service_box .date ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.service_box .date ul li {
+	float:left;
+	margin:0;
+	padding:0 3px 0 3px;
+}
+.service_box .date ul li a, .service_box .date ul li a:link, .service_box .date ul li a:visited {
+	color:#88b5c8;
+	text-decoration:none;
+}
+.service_box .date ul li a:hover {
+	text-decoration:underline;
+}
+.bottom_bar {
+	height:25px;
+	clear:both;
+	background-color:#f3f3f3;
+	margin:10px auto;
+	text-align:center;
+	padding:10px 0 0 0;
+	border-bottom:1px solid #dedede;
+}
+.buttons {
+	width:180px;
+	float:right;
+	margin-right:100px;
+}
+
+.thank_you {
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+
+
+.view_all {
+	width:110px;
+	float:right;
+	margin-right:100px;
+	margin-top:-3px;
+}
+/*case study*/
+
+.case_study_box_container {
+	width:100%;
+	border-bottom:1px solid #e7e7e7;
+	margin-bottom:5px;
+	padding:5px 0;
+}
+.case_study_box_container .image {
+	float:left;
+	width:130px;
+	margin:10px 0px 10px 22px;
+}
+.case_study_box_container .image img {
+	border:1px solid #e7e7e7;
+}
+.case_study_box_container .text {
+	float:right;
+	width:80%;
+	font-size:12px;
+	padding:5px 0px;
+}
+.case_study_box_container .text p {
+	padding:0px;
+	margin:0px;
+}
+.case_study_box_container h2 {
+	font-size:18px;
+	margin-bottom:10px;
+}
+.testimonial {
+	width:97%;
+	padding:10px;
+	margin:15px 0 10px 0;
+	background-color:#f7f9fa;
+	border:1px solid #e5e5e5;
+	font-style:italic;
+}
+.testimonial h3 {
+	margin-top:0px;
+}
+
 
 /* footer */
 .footer { padding:10px 24px 147px 18px; font-size:11px; line-height:11px; position:relative;  }

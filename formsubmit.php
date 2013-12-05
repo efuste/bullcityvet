@@ -6,12 +6,12 @@ $default_subject = "Contact Form";
 $email_title = "Contact Form";
 // the to, cc, and bcc email addresses.
 // seperate them by commas if you want to use multiple
-$to="example@example.com"; //change this to your email
+$to="erik.fuste@pxl83.com"; //change this to your email
 //$cc="info@youremail.com";
 //$bcc="info@youremail.com";
 // the default redirect.
 // if you set <input type="hidden" name="redirect" value="foo.htm"> it will override this
-$redirect = "thank_you.html";
+$redirect = "thank_you.php";
 // required form fields, if any of these are missing then the
 // form will not submit and an error message will be shown.
 // set <input type="hidden" name="required" value="field1,field2,field3"> to override these
