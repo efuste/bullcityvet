@@ -11,6 +11,7 @@
 	<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 	<script src="js/jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script>
 	<script src="js/functions.js" type="text/javascript"></script>
+	<script src="js/skrollr.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="page-holder">
