@@ -22,6 +22,12 @@ $(document).ready(function() {
 		// For example:
 		$('body').stellar();
 		
-	
+		$('.logo').hide().show().addClass('animated fadeIn');
+		$('.page-holder').hide().show().addClass('animated fadeIn');
+		$('.box1:first-child').hide().show().addClass('animated fadeInLeft');
+		$('.box1:last-child').hide().show().addClass('animated fadeInRight');
+		$('.box1:nth-child(2)').hide().show().addClass('animated fadeIn');
+
+
 });
 

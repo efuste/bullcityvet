@@ -85,7 +85,7 @@ h6 { font-size: 10px; line-height: 10px; }
 /*.bg-right { background: url(images/bg-right.png) no-repeat 0 0; display:block; position:absolute; bottom: 0; height:551px; width:354px; right: 0;  }*/
 
 /* header */
-.header { position: relative; height: 215px;  }
+.header { position: relative; height: 215px; margin-top: -20px;  }
 .circles { position:absolute; display:block; background: url(images/circles.png) no-repeat 0 0; width: 385px; height: 258px; top: 0; left: -23px; z-index: 9; }
 
 h1.logo { float: left; display: inline; font-size: 0; line-height: 0; padding:19px 0 0 38px; position:relative; z-index: 10; }

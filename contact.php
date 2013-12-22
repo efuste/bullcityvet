@@ -74,6 +74,23 @@
         </div>
         <!--end main right-->
         <br class="clear" />
+        <div class="content-bottom clearfix">
+	        <h2>Testimonials</h2>
+				<div class="quote">
+					<blockquote>
+						Dr. Sabin is awesome! She has greatly enhanced the quality of life for CoCo, our 16 year-old Chow/
+						German Shepherd mix, who has really bad arthritis in her hips and back legs. Dr. Sabin has provided 
+						mobile veterinary care for CoCo in our home for over 2 years. She alternates acupuncture treatments 
+						and laser therapy for CoCo on a weekly basis. The treatments are so soothing and relaxing to CoCo that 
+						she actually falls asleep and appears disappointed when they are completed. All of our experiences with 
+						Dr. Sabin demonstrate that she is a skillful, caring, accessible, and flexible vet; and just a wonderful and 
+						compassionate human being! We feel very fortunate to have such a great combination of qualities in 
+						one individual to provide care for our beloved CoCo. I would highly recommend Dr. Sabin to anyone who 
+						demands the best of care possible for the furry members of their family!!
+					</blockquote>
+				</div><!-- /.quote -->
+      
+      	</div>
       </div>
       <!--end main content area-->
       <br class="clear" />
