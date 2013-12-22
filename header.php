@@ -4,6 +4,7 @@
 	<title>Bull City</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="shortcut icon" href="css/images/favicon.ico" />
+		
 
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 
@@ -11,9 +12,11 @@
 	<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 	<script src="js/jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script>
 	<script src="js/functions.js" type="text/javascript"></script>
-	<script src="js/skrollr.min.js" type="text/javascript"></script>
+	<script src="js/jquery.stellar.js" type="text/javascript"></script>	
+	
+		
 </head>
-<body>
+<body data-stellar-background-ratio="0.5" >
 <div class="page-holder">
 	<div class="shell">
 		<div class="header">
