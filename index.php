@@ -1,6 +1,7 @@
 <?php include('header.php'); ?>
 
 		<div class="container">
+			<div class="transp_bg"></div>
 			<div class="slider">
 				<ul>
 					<li>
