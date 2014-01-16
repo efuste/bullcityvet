@@ -1,33 +1,165 @@
 <?php include('header.php'); ?>
 
 		<div class="container">
-			<div class="transp_bg"></div>
-			<div class="slider">
+			<div class="bannercontainer">
+				<div class="banner">
+			
 				<ul>
-					<li>
-						<img src="css/images/slide-1.jpg" alt="" />
-						<div class="slide-text"><h2><a href="#">Coming Soon,<br /> Bull City Animal Hospital</a></h2></div>
-					</li>
+					<li data-transition="fade" data-masterspeed="1000" >
+					<!-- MAIN IMAGE -->
+					<img src="css/images/slide_our_office.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+					<div class="tp-caption medium_bg_darkcyan skewfromrightshort customout"
+						data-x="right" data-hoffset="-50"
+						data-y="top" data-voffset="30"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1800"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 4">Bull City Veterinary Hospital 
+					</div>
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption medium_bg_darkcyan skewfromrightshort customout"
+						data-x="right" data-hoffset="-70"
+						data-y="top" data-voffset="100"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1900"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 4">Opening January 2014!
+					</div>
+					<!-- LAYER NR. 2 -->
+					<div class="tp-caption customin customout"
+						data-x="left" data-hoffset="160"
+						data-y="top" data-voffset="30"
+						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1100"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						style="z-index: 20"><img src="css/images/city_buildings_1.png" alt="">
+					</div>
+					
+					<div class="tp-caption customin customout"
+						data-x="left" data-hoffset="5"
+						data-y="top" data-voffset="5"
+						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1400"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						style="z-index: 3"><img src="css/images/city_building2.png" alt="">
+					</div>
+					
+					<div class="tp-caption small_bg_darkcyan skewfromrightshort customout"
+						data-x="left" data-hoffset="60"
+						data-y="bottom" data-voffset="-50"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1500"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 4">Local Landmarks
+					</div>
+					
+				</li>
+				<!-- SLIDE  -->
+				<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
+					<!-- MAIN IMAGE -->
+					<img src="css/images/slide_special_discount1.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+					
+					<!-- LAYERS -->
+					<div class="tp-caption medium_bg_darkcyan skewfromrightshort customout"
+						data-x="right" data-hoffset="-30"
+						data-y="top" data-voffset="30"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1100"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 4">A Gift For New Clients
+					</div>
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption medium_thin_darkcyan  skewfromrightshort customout"
+						data-x="right" data-hoffset="-60"
+						data-y="top" data-voffset="100"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1100"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 4">Bull City Veterinary Hospital is  <br /> offering   a 20% discount on<br /> your pets first exam, limited to <br />new clients
+					</div>
+					
+					
+				</li>
+				<!-- SLIDE  -->
+				<li data-transition="fade" data-masterspeed="1000" >
+					<!-- MAIN IMAGE -->
+					<img src="css/images/slide_special_2.jpg" style='background-color:#b2c4cc' alt=""  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+					<!-- LAYERS -->
+					<div class="tp-caption medium_bg_darkcyan skewfromrightshort customout"
+						data-x="right" data-hoffset="-220"
+						data-y="top" data-voffset="30"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1100"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 4">Planning To Rescue?
+					</div>
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption medium_thin_white skewfromrightshort customout"
+						data-x="right" data-hoffset="-80"
+						data-y="top" data-voffset="100"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1100"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 4">Bull City Veterinary Hospital is offering a free<br />   physical exam on any recently adopted<br />  pet(s) from any of the local  shelters<br /> or rescue organizations.
+					</div>
+					
+					
+					
+				</li>
+				
+					
+					
 
-					<li>
-						<img src="css/images/slide-1.jpg" alt="" />
-						<div class="slide-text"><h2><a href="#">Coming Soon,<br /> Bull City Animal Hospital</a></h2></div>
-					</li>
-
-					<li>
-						<img src="css/images/slide-1.jpg" alt="" />
-						<div class="slide-text"><h2><a href="#">Coming Soon,<br /> Bull City Animal Hospital</a></h2></div>
-					</li>
+					
 				</ul>
 			</div><!-- /.slider -->
-
+		</div>
 			<div class="main home">
 				<div class="content">
 					<div class="entry">
-						<h2>Welcome to Bull City Veterinary Hospital .</h2>
+						<h2>Welcome to Bull City Veterinary Hospital</h2>
 
 						<p>
-							We are proud to introduce the 1st Veterinary Hospital to the Downtown Durham area.Our goal is 
+							We are proud to introduce one of the 1st Veterinary Hospitals to the Downtown Durham area.Our goal is 
 							to provide excellent veterinary care and exceptional customer service to the local community. Our 
 							state of the art equipment and trained staff will facilitate our  goal. We emphasize the importance
 						    of continuing education  to stay up to date with the latest studies and technology to be able to offer the 
@@ -49,7 +181,7 @@
 								</p>
 							</div><!-- /.box-content -->
 							
-							<p class="buttons"><a href="#" class="more">Learn More &gt;</a></p><!-- /.buttons -->
+							<p class="buttons"><a href="services.php" class="more">Learn More &gt;</a></p><!-- /.buttons -->
 						</div><!-- /.box box1 -->
 
 						<div class="box box1 service">
@@ -62,7 +194,7 @@
 								</p>
 							</div><!-- /.box-content -->
 							
-							<p class="buttons"><a href="#" class="more">Learn More &gt;</a></p><!-- /.buttons -->
+							<p class="buttons"><a href="services.php" class="more">Learn More &gt;</a></p><!-- /.buttons -->
 						</div><!-- /.box box1 -->
 
 						<div class="box box1 service">
@@ -76,18 +208,23 @@
 								</p>
 							</div><!-- /.box-content -->
 							
-							<p class="buttons"><a href="#" class="more">Learn More &gt;</a></p><!-- /.buttons -->
+							<p class="buttons"><a href="services.php" class="more">Learn More &gt;</a></p><!-- /.buttons -->
 						</div><!-- /.box box1 -->
 					</div><!-- /.boxes -->
 
-					<div class="content-bottom clearfix">
+					
+		</div><!-- /.container -->
+		<div class="content-bottom clearfix">
 						<div class="newsletter-form">
-							<h4>Newsletter Signup</h4>
-							 <form action="formsubmit.php" method="post">
+							<h4>Schedule Appointment</h4>
+							 <form action="formsubmit_newsletter.php" method="post">
             					<fieldset id="contact">
-              					<input name="your_name" type="text" class="forms" id="your_name" size="35" value="Name"/>
-              					<input name="your_email" type="text" class="forms" id="your_email" size="35" value="Email" />
-              					<input name="phone" type="text" class="forms" id="phone" size="35" value="Phone" />
+              					<input name="name" type="text" class="forms" id="name" size="35" placeholder="Name" required/>
+              				    <input name="petname" type="text" class="forms" id="petname" size="35" placeholder="Pet Name" required/>
+              					<input name="phone" type="phone" class="forms" id="phone" size="35" placeholder="Phone" required/>
+
+              					<input name="date" type="date" class="forms" id="date" size="35" value="Date" required/>
+              				    <input name="time" type="time" class="forms" id="time" size="35" value="Email" required/>
               					<textarea name="message" cols="30" rows="4" class="forms" id="message">Enter Message</textarea>
               
               					<input name="submit_message" type="submit" id="submit_message" class="submit_button" value="Submit" />
@@ -99,21 +236,33 @@
 							<h2>Testimonials</h2>
 							<div class="quote">
 								<blockquote>
-									Dr. Sabin is awesome! She has greatly enhanced the quality of life for CoCo, our 16 year-old Chow/
-									German Shepherd mix, who has really bad arthritis in her hips and back legs. Dr. Sabin has provided 
+									Dr. Sabin has greatly enhanced the quality of life for CoCo, our 16 year-old Chow/
+									German Shepherd mix. Dr. Sabin has provided 
 									mobile veterinary care for CoCo in our home for over 2 years. She alternates acupuncture treatments 
 									and laser therapy for CoCo on a weekly basis. The treatments are so soothing and relaxing to CoCo that 
 									she actually falls asleep and appears disappointed when they are completed. All of our experiences with 
 									Dr. Sabin demonstrate that she is a skillful, caring, accessible, and flexible vet; and just a wonderful and 
-									compassionate human being! We feel very fortunate to have such a great combination of qualities in 
-									one individual to provide care for our beloved CoCo. I would highly recommend Dr. Sabin to anyone who 
-									demands the best of care possible for the furry members of their family!!
+									compassionate human being!
+									
 								</blockquote>
+								<cite>Carolyn Simmons & Lula B. Cousin, Rougemont, NC</cite>
+							</div>	
+							<div class="quote">
+								
+								<blockquote>
+									Dr. Sabin's knowledge and compassion for animals is apparent. My husband and I always have a 
+									pleasant experience with her and her staff members. She explains things to us in simple terms and we 
+									never feel rushed during the appointment time (we really appreciate that). We recommend her to anyone that's looking for an 
+									exceptional veterinarian with extensive knowledge, AMAZING! Acupuncture skills, great personality and 
+									above all, honesty. "Jack" and "Bailey" can't thank you enough for all the care, love and compassion you have given them 
+									for the past 4 years.
+
+
+								</blockquote>
+								<cite>Jessica & David S.</cite>
 							</div><!-- /.quote -->
 						</div><!-- /.quotes -->
 					</div><!-- /.content-bottom -->
-				</div><!-- /.content -->
-			</div><!-- /.main -->
-		</div><!-- /.container -->
-
+       
+  	
 <?php include('footer.php'); ?>

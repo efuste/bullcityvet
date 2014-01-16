@@ -2,11 +2,11 @@
 // subject of the email to be sent.
 // set the default subject here
 // if there is a <input type="hidden" name="subject" value="My Custom Subject"> this will be used instead
-$default_subject = "Newsletter Subscription"; 
-$email_title = "Newsletter Subscription";
+$default_subject = "Schedule Appointment"; 
+$email_title = "Schedule Appointment";
 // the to, cc, and bcc email addresses.
 // seperate them by commas if you want to use multiple
-$to="erik.fuste@pxl83.com"; //change this to your email
+$to="bullcityveterinaryhospital@gmail.com"; //change this to your email
 //$cc="info@youremail.com";
 //$bcc="info@youremail.com";
 // the default redirect.
@@ -16,32 +16,30 @@ $redirect = "thank_you.php";
 // form will not submit and an error message will be shown.
 // set <input type="hidden" name="required" value="field1,field2,field3"> to override these
 $required = array(
-        "email",
+        "date",
+        "name",
+        "time",
+        "phone",
 );
 // these are the fields to ignore in the email that comes through
 $ignorefields = array(
     "submit",
+    "message",
+    "petname",
     "redirect",
     "subject",
     "email_to",
     "required",
-	"submit_y",
-	"submit_x",
 	
 );
-// names of the <input type=file> fields:
-$uploadfiles = array(
-    "file_upload1",
-    "file_upload2",
-    "file_upload3",
-);
+
 function f_safe_string($s){
     return preg_replace( '((?:\n|\r|\t|%0A|%0D|%08|%09)+)i' , '', $s);
 }
 // the default from email address that this form gets sent from.
 // if the user specifies a "name" or "email" field then this will be used instead.
-if($_REQUEST['name'] && $_REQUEST['email']){
-    $from = f_safe_string($_REQUEST['name']) . " <".f_safe_string($_REQUEST['email']).">";
+if($_REQUEST['name'] && $_REQUEST['date']){
+    $from = f_safe_string($_REQUEST['name']) . " <".f_safe_string($_REQUEST['date']).">";
 }else{
     $from="Contact Website <info@".$_SERVER['HTTP_HOST'].">";
 }
@@ -90,7 +88,7 @@ $message .= "Content-Transfer-Encoding: $ctencoding\n\n";
 $message .= "<h2>$email_title:</h2>";
 $message .= '<table width="100%">';
 foreach($_POST as $pkey => $value){
-    if((!in_array(strtolower($pkey),$ignorefields)) && (!in_array(strtolower($pkey),$uploadfiles))){
+    if((!in_array(strtolower($pkey),$ignorefields))){
     	$key = '';
     	$val = '';
         if(is_array($value)){
@@ -108,21 +106,7 @@ foreach($_POST as $pkey => $value){
 $message .= '</table>';
 $message .= "\n\n";
 
-foreach($uploadfiles as $filetoupload){
-    if(is_file($_FILES[$filetoupload]['tmp_name'])){
-     if($_FILES[$filetoupload]['error'] == UPLOAD_ERR_OK) {
-        $filename = $_FILES[$filetoupload]['name'];
-        $filetype = $_FILES[$filetoupload]['type'];            
-        $message .="--$boundary\nContent-type: $filetype ;\n name=\"$filename\"\n";
-        $message .="Content-Transfer-Encoding: base64\nContent-Disposition: $disposition;\n  filename=\"$filename\"\n";
-        $linesz= filesize( $_FILES[$filetoupload]['tmp_name'])+1;        
-        $fp= fopen( $_FILES[$filetoupload]['tmp_name'], 'r' );
-        $content2 = chunk_split(base64_encode(fread( $fp, $linesz)));
-        fclose($fp);
-        $message .= $sep.$content2;
-      }
-      }
-}// end foreach file to upload
+
 mail($to,$subject,$message,$header);
 if(isset($_REQUEST['redirect'])){
     $redirect = $_REQUEST['redirect'];

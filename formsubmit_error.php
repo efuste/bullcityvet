@@ -1,144 +1,61 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Error</title>
-<link href="css/styles.css" rel="stylesheet" type="text/css" />
-<link href="css/nivo-slider.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/jquery-1.4.2.min.js" language="javascript"></script>
-<script type="text/javascript" src="js/jquery.tools.min.js" language="javascript"></script>
-<script src="js/cufon-yui.js" type="text/javascript"></script>
-<script src="js/Sunshine_Poppy_400.font.js" type="text/javascript"></script>
-<script type="text/javascript">
-			Cufon.replace('h1'); 
-			Cufon.replace('h3'); // Works without a selector engine
-			Cufon.replace('.special_font'); 
-			Cufon.replace('h2 a', {
-	hover: true
-}); 
-			Cufon.replace('h2'); 
-			Cufon.replace('#navigation a', {
-	hover: true
-}); // Requires a selector engine for IE 6-7, see above
-			
-		</script>
-<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
-<script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
-    </script>
-<!--[if IE 6]>
-<script defer type="text/javascript" src="js/pngfix.js"></script>
-<![endif]-->
-<!--[if !IE 7]>
-	<style type="text/css">
-		#bg_top {display:table;height:100%}
-	</style>
-<![endif]-->
-<!-- start lightbox code -->
-<link rel="stylesheet" href="css/jquery.lightbox-0.5.css" type="text/css" />
-<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
-<script type="text/javascript">
-$(function() {
-	$('.lightbox').lightBox();
-});
-</script>
-<!-- end lightbox code -->
-</head>
-<body>
-<div id="bg_top">
-  <div id="wrapper">
-    <div id="header">
-      <div id="logo"><img src="images/logo.png" width="289" height="54" alt="Logo" /></div>
-      <!--end logo-->
-      <div id="cloud1" class="special_font">Open<br />
-        7 Days</div>
-      <div id="cloud2" class="special_font">1300 555 555</div>
-      <div id="menu">
-        <ul id="navigation">
-          <li><a href="index.html">Home</a>
-            <ul class="second-level">
-              <!--start a new list with the style: class="second-level"-->
-              <li> <a href="home_static.html">Home - Static Banner</a></li>
-              <li> <a href="home_service_boxes.html">Home - Service boxes</a></li>
-            </ul>
-          </li>
-          <li><a href="side_column.html">Side Column</a>
-            <!--notice you do not close the </li> here -->
-            <ul class="second-level">
-              <!--start a new list with the style: class="second-level"-->
-              <li> <a href="#">Other Service 1</a></li>
-              <li> <a href="#">Other Service 2</a></li>
-              <li> <a href="#">Other Service 3</a></li>
-              <li> <a href="#">Other Service 4</a></li>
-              <li> <a href="#">Other Service 5</a></li>
-              <li> <a href="#">Other Service 6</a></li>
-            </ul>
-            <!-- close the new list-->
-          </li>
-          <!-- close the services <li>-->
-          <li><a href="full_width.html">Full Width</a> </li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="boxes.html">Boxes</a></li>
-          <li><a href="sitemap.php">Site Map</a> </li>
-          <li><a href="contact.html" style="border:none;">
-            <!--this gets rid of last divider-->
-            Contact</a>
-            <!--notice you do not close the </li> here -->
-            <ul class="second-level">
-              <!--start a new list with the style: class="second-level"-->
-              <li> <a href="contact_no_map.html">Contact 2 - No Map</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!--end menu-->
-    </div>
-    <!--end header-->
-    <div id="content_bg">
+<?php include('header.php'); ?>
+  <div class="container">
       <!--start main content area-->
       <div id="content">
-<!--insert your header here-->
       <h1>Error</h1>
-      <p>Required fields are missing, please go back and complete the form.</p>
+      <br />
+      <p>Required fields are missing, please try again.</p>
       <p>&nbsp;</p>
      
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
- <!--insert your footer here-->
-  <br class="clear" />
-      </div><!--end main content area-->
-      <br class="clear" />
-    </div>
-    <div id="content_bottom"><img src="images/content_bottom.jpg" width="980" height="5" alt="bottom" /></div>
-    <div id="footer">
-      <div class="left">
-        <ul>
-          <li> &copy; Child Care - Theme by <a href="http://themeforest.net/user/dtbaker/portfolio?ref=dtbaker" target="_blank">DTBAKER</a></li>
-        </ul>
-      </div>
-      <!--end left-->
-      <div class="right">
-        <ul>
-          <li><a href="sitemap.php">Site Map</a> | </li>
-          <li><a href="#">Privacy</a> | </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <!--end right-->
-    </div>
-    <!--end footer-->
-  </div>
-  <!--end wrapper-->
-</div>
-<!--end bg_top-->
-<div id="grass">
-  <div id="footer_design"></div>
-</div>
-<!--end grass-->
-<script type="text/javascript"> Cufon.now(); </script>
-</body>
-</html>
+      <div class="content-bottom clearfix">
+						<div class="newsletter-form">
+							<h4>Schedule Appointment</h4>
+							 <form action="formsubmit_newsletter.php" method="post">
+            					<fieldset id="contact">
+              					<input name="name" type="text" class="forms" id="name" size="35" placeholder="Name" required/>
+              				    <input name="petname" type="text" class="forms" id="petname" size="35" placeholder="Pet Name" required/>
+              					<input name="phone" type="phone" class="forms" id="phone" size="35" placeholder="Phone" required/>
+
+              					<input name="date" type="date" class="forms" id="date" size="35" value="Date" required/>
+              				    <input name="time" type="time" class="forms" id="time" size="35" value="Email" required/>
+              					<textarea name="message" cols="30" rows="4" class="forms" id="message">Enter Message</textarea>
+              
+              					<input name="submit_message" type="submit" id="submit_message" class="submit_button" value="Submit" />
+            					</fieldset>
+          					</form>
+							</div><!-- /.newsletter-form -->
+
+						<div class="quotes">
+							<h2>Testimonials</h2>
+							<div class="quote">
+								<blockquote>
+									Dr. Sabin has greatly enhanced the quality of life for CoCo, our 16 year-old Chow/
+									German Shepherd mix. Dr. Sabin has provided 
+									mobile veterinary care for CoCo in our home for over 2 years. She alternates acupuncture treatments 
+									and laser therapy for CoCo on a weekly basis. The treatments are so soothing and relaxing to CoCo that 
+									she actually falls asleep and appears disappointed when they are completed. All of our experiences with 
+									Dr. Sabin demonstrate that she is a skillful, caring, accessible, and flexible vet; and just a wonderful and 
+									compassionate human being!
+									
+								</blockquote>
+								<cite>Carolyn Simmons & Lula B. Cousin, Rougemont, NC</cite>
+							</div>	
+							<div class="quote">
+								
+								<blockquote>
+									Dr. Sabin's knowledge and compassion for animals is apparent. My husband and I always have a 
+									pleasant experience with her and her staff members. She explains things to us in simple terms and we 
+									never feel rushed during the appointment time (we really appreciate that). We recommend her to anyone that's looking for an 
+									exceptional veterinarian with extensive knowledge, AMAZING! Acupuncture skills, great personality and 
+									above all, honesty. "Jack" and "Bailey" can't thank you enough for all the care, love and compassion you have given them 
+									for the past 4 years.
+
+
+								</blockquote>
+								<cite>Jessica & David S.</cite>
+							</div><!-- /.quote -->
+						</div><!-- /.quotes -->
+					</div><!-- /.content-bottom -->
+      
+<?php include('footer.php');
