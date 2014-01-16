@@ -88,7 +88,7 @@
         <!--end main right-->
         <div class="clearfix"></div>
         <br class="clear" />
-        
+
         <div class="content-bottom clearfix">
 						<div class="newsletter-form">
 							<h4>Schedule Appointment</h4>
@@ -139,5 +139,8 @@
 						</div><!-- /.quotes -->
 					</div><!-- /.content-bottom -->
        
-  
+      
+      	
+      <!--end main content area-->
+      <br class="clear" />
 <?php include('footer.php'); ?>

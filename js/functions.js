@@ -29,6 +29,7 @@ $(document).ready(function() {
 		$('.box1:first-child').hide().show().addClass('animated fadeInLeft');
 		$('.box1:last-child').hide().show().addClass('animated fadeInRight');
 		$('.box1:nth-child(2)').hide().show().addClass('animated fadeIn');
+
 		$('.service_box:even').hide().show().addClass('animated fadeInLeft');
 		$('.service_box:odd').hide().show().addClass('animated fadeInRight');
 
@@ -45,5 +46,6 @@ $(document).ready(function() {
  				navigationHAlign:"center",
          		navigationVAlign:"bottom"
 		});
+
 });
 
